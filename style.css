@@ -55,6 +55,7 @@ h2 {
     font-size: 24px; 
     text-align:center;
     width: 1250px;
+
     border-radius: 10px 20px;
     font-family: Comic Sans MS;
     
@@ -63,7 +64,12 @@ h2 {
 
 h3 {
     color: #333;
-    font-size: 18px;
+    font-size: 24px; 
+    text-align:center;
+    width: 1250px;
+
+    border-radius: 10px 20px;
+    font-family: Comic Sans MS;
 }
 
 article {
@@ -97,6 +103,7 @@ footer {
     padding: 10px;
     color: #fff;
     margin: 0;
+    text-align:center;
 }
 /*=== ANIMACOES ===*/
 
