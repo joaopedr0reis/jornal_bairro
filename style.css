@@ -1,0 +1,65 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav ul li a:hover {
+    color: #f00;
+    cursor: pointer;
+}
+
+nav ul li a:active {
+    color: #00f;
+}
+
+main {
+    margin: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+article {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+h3 {
+    color: #333;
+    font-size: 18px;
+}
+
+iframe {
+    width: 100%;
+    height
