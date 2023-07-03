@@ -49,17 +49,33 @@ h2 {
     color: #333;
     font-size: 24px;
 }
+h3 {
+    color: #333;
+    font-size: 18px;
+}
 
 article {
     border: 1px solid #ccc;
     padding: 10px;
 }
 
-h3 {
-    color: #333;
-    font-size: 18px;
-}
 
 iframe {
     width: 100%;
-    height
+}
+
+a:link {
+    color:black;
+}
+
+a:visited {
+    color:orange;
+}
+
+a:hover {
+    color:silver;
+}
+
+a:active {
+    color: yellow;
+}
