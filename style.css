@@ -44,11 +44,13 @@ main {
 section {
     margin-bottom: 20px;
 }
-
+h1:hover:
 h2 {
     color: #333;
-    font-size: 24px;
+    font-size: 24px;    
 }
+
+
 h3 {
     color: #333;
     font-size: 18px;
@@ -74,8 +76,38 @@ a:visited {
 
 a:hover {
     color:silver;
+    
 }
 
 a:active {
     color: yellow;
+}
+footer {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    margin: 0;
+}
+/*=== ANIMACOES ===*/
+
+@keyframes expand{
+    0%{
+          color: blue;
+    }
+    50%{
+        color: red;
+    }
+    100%{
+          color: blue;
+    }
+}
+
+#titulo {
+    animation: expand;
+    animation-duration:40s;
+    animation-iteration-count: infinite;
+}
+#titulo:hover {
+    transform: scale(20.8);
+    transform: translate(500px);
 }
