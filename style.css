@@ -6,11 +6,16 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #967878;
     padding: 10px;
     color: #fff;
 }
+#imagem{
+display: flex;
+flex-direction: row;
+justify-content: center;
 
+}
 nav ul {
     list-style-type: none;
     margin: 0;
